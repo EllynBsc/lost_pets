@@ -1,5 +1,9 @@
 {
   "name": "lost_pets",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1",
+    "bootstrapp": "^0.0.0"
+  }
 }

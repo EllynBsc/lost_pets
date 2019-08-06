@@ -1,0 +1,11 @@
+
+<div class="container">
+<h1>Pets</h1>
+<% @pets.each do |pet|%>
+<h1> <%= link_to pet.name, pet_path(pet) %></h1>
+  <p><%= pet.address %></p>
+ <p> <%= pet.specie %></p>
+  <%= pet.found_on %>
+  <%= link_to 'destroy', pet_path(pet), method: :delete, data: { confirm: 'Are you sure ?'} %>
+<% end %>
+</div>

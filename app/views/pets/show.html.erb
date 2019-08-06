@@ -1,0 +1,11 @@
+<div class="container">
+
+<h1> <%= @pet.name %></h1>
+<p> <%= @pet.address %></p>
+ <p>  <%= @pet.specie %></p>
+
+  <%= @pet.found_on %>
+  <p><%= link_to 'edit', edit_pet_path(@pet)  %></p>
+  <p><%= link_to 'Back home', pets_path  %></p>
+
+</div>
